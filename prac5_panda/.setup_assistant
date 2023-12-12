@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: franka_description
+    relative_path: robots/panda/panda.urdf.xacro
+    xacro_args: hand:=true
+  SRDF:
+    relative_path: config/panda.srdf
+  CONFIG:
+    author_name: Arnau Reig y Edgar Rogalskyy
+    author_email: al416033@uji.es
+    generated_timestamp: 1702389249
